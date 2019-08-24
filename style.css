@@ -1,0 +1,29 @@
+body{
+        width: 65%;
+        margin: 20px auto;
+}
+.addnew{    background: mediumaquamarine;    float: right;}
+.edit{    background:rgb(54, 208, 255);    float: left;border:none;}
+.delete{    background: red;    float: right;}
+.add{    background:rgb(54, 208, 255); border:none;}
+.buttons{
+    padding: 6px 23px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.showtable{
+    width: 100%;
+    border-collapse: collapse;
+}
+.showtable th,.showtable td{border: 1px solid #ccc;border-collapse: collapse;padding: 5px;}
+.showtable th{background: #ddd;}
+.showtable th:last-child{width: 26%;}
+.addcol tr td:first-child{width: 10%;text-align: right}
+input[type="text"]{height: 16px;
+    font-size: 14px;
+    width: 80%;
+    padding: 3px;}
